@@ -41,11 +41,11 @@
 <div class="superadmin" ng-app="superadmin">
     <div class="header">
         <a href="#menu"><i class="icon icon-menu"></i> Menu</a>
-        <img src="../img/logo.png" class="hidden-xs center-block" onclick="window.location.href = '../index.html'">
+        <img src="../img/logo.png" class="hidden-xs center-block" target="_blank" onclick="window.location.href = '../#index'">
         <p class="pull-right">
             <i onclick="window.location.href = '#messages'" class="icon icon-bell-alt" title="Notification"><span>12</span></i>
             <i onclick="window.location.href = '#refund'" class="icon icon-arrows-ccw" title="Refund Request"><span>1</span></i>
-            <i onclick="window.location.href = '#index'" class="icon icon-logout" title="Sign Out">Sign Out</i>
+            <i onclick="window.location.href = '../#index'" class="icon icon-logout" title="Sign Out">Sign Out</i>
         </p>
     </div>
 
@@ -62,7 +62,7 @@
                         <div class=icon>
                             <i class="icon-chart-bar-1"></i>
                         </div>
-                        <a href="#index"><span>Dashboard</span></a>
+                        <a href="#dashboard"><span>Dashboard</span></a>
                     </div>
                 </li>
                 <li class="var_nave">
@@ -187,7 +187,7 @@
     </nav>
 </div>
 
-<div id="footer"></div>
+<div id="footer" class="text-center">Copy right © 2015 learnterest.com</div>
 
 <!-- JQUERY -->
 <script src="../js/jquery-1.10.2.min.js"></script>

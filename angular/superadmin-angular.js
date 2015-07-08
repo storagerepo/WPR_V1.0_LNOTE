@@ -8,83 +8,83 @@ sampleApp.config(['$routeProvider',
   function($routeProvider) {
 
     $routeProvider.
-      when('/index', {
-        templateUrl: '../superadmin/dashboard.html'
+      when('/dashboard', {
+        templateUrl: '../superadmin/views/dashboard.html'
       }).
       when('/messages',{
-      	templateUrl: '../superadmin/messages.html'
+      	templateUrl: '../superadmin/views/messages.html'
       }).
       when('/messages_detail',{
-      	templateUrl: '../superadmin/messages_detail.html'
+      	templateUrl: '../superadmin/views/messages_detail.html'
       }).
        when('/instructors', {
-        templateUrl: '../superadmin/instructors.html'
+        templateUrl: '../superadmin/views/instructors.html'
       }).
        when('/instructors_details', {
-        templateUrl: '../superadmin/instructors_details.html'
+        templateUrl: '../superadmin/views/instructors_details.html'
       }).
        when('/students', {
-        templateUrl: '../superadmin/students.html'
+        templateUrl: '../superadmin/views/students.html'
       }).
         when('/student_details', {
-        templateUrl: '../superadmin/student_details.html'
+        templateUrl: '../superadmin/views/student_details.html'
       }).
        when('/affiliates', {
-        templateUrl: '../superadmin/affiliates.html'
+        templateUrl: '../superadmin/views/affiliates.html'
       }).
        when('/affiliate_details', {
-        templateUrl: '../superadmin/affiliate_details.html'
+        templateUrl: '../superadmin/views/affiliate_details.html'
       }).
        when('/courses', {
-        templateUrl: '../superadmin/courses.html'
+        templateUrl: '../superadmin/views/courses.html'
       }).
        when('/categories', {
-        templateUrl: '../superadmin/categories.html'
+        templateUrl: '../superadmin/views/categories.html'
       }).
        when('/sub_categories', {
-        templateUrl: '../superadmin/sub_categories.html'
+        templateUrl: '../superadmin/views/sub_categories.html'
       }).
        when('/billing', {
-        templateUrl: '../superadmin/billing.html'
+        templateUrl: '../superadmin/views/billing.html'
       }).
        when('/billing_course', {
-        templateUrl: '../superadmin/billing_course.html'
+        templateUrl: '../superadmin/views/billing_course.html'
       }).
        when('/billing_enrollment', {
-        templateUrl: '../superadmin/billing_enrollment.html'
+        templateUrl: '../superadmin/views/billing_enrollment.html'
       }).
        when('/offer_zone', {
-        templateUrl: '../superadmin/offer_zone.html'
+        templateUrl: '../superadmin/views/offer_zone.html'
       }).
        when('/offer_zone_create', {
-        templateUrl: '../superadmin/offer_zone_create.html'
+        templateUrl: '../superadmin/views/offer_zone_create.html'
       }).
        when('/news', {
-        templateUrl: '../superadmin/news.html'
+        templateUrl: '../superadmin/views/news.html'
       }).
        when('/news_create', {
-        templateUrl: '../superadmin/news_create.html'
+        templateUrl: '../superadmin/views/news_create.html'
       }).
        when('/blogs', {
-        templateUrl: '../superadmin/blogs.html'
+        templateUrl: '../superadmin/views/blogs.html'
       }).
        when('/blog_create', {
-        templateUrl: '../superadmin/blog_create.html'
+        templateUrl: '../superadmin/views/blog_create.html'
       }).
 
        when('/reports', {
-        templateUrl: '../superadmin/reports.html'
+        templateUrl: '../superadmin/views/reports.html'
       }).
 
        when('/refund', {
-        templateUrl: '../superadmin/refund.html'
+        templateUrl: '../superadmin/views/refund.html'
       }).
 
        when('/settings', {
-        templateUrl: '../superadmin/settings.html'
+        templateUrl: '../superadmin/views/settings.html'
       }).
 
       otherwise({
-        redirectTo: '/index'
+        redirectTo: '/dashboard'
       });
 }]);
