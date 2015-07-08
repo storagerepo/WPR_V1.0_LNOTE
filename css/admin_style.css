@@ -2,15 +2,14 @@
     margin: 0px;
 }
 
-
-
 .dashboard{
     padding-top: 15px;
-    height: 170px;
+    height: 150px;
     margin-bottom: 20px;
     color: #fff;
     border-top-left-radius: 20px;
     border-bottom-right-radius:20px ;
+    box-shadow: 2px 2px 7px #999;
 }
 
 .dashboard p{
@@ -19,7 +18,9 @@
     font-weight: bold;
     padding: 5px 20px;
     position: absolute;
-    top: 140px;
+    top: 120px;
+    border-top-right-radius: 10px;
+
 }
 
 .dashboard a{
@@ -39,7 +40,7 @@
 }
 
 .dashboard i{
-    font-size: 100px;
+    font-size: 90px;
 }
 
 .red{
@@ -86,9 +87,24 @@ ul.category,.category li
 }
 
 /** menu**/
+#menu ul.nave{
+    margin-top: 3px;
+    position: relative;
+}
+
+.menu-title{
+    height: 50px;
+    color: #fff;
+    background-color: #004e6d;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 15px;
+    font-size: 16px;
+}
 
 ul.nave
 {
+
     list-style-type:none;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -123,13 +139,13 @@ ul.nave
     font-size: 16px;
 }
 .link_title:hover .icon
-{
-    -webkit-transform:rotate(360deg);
-    -moz-transform:rotate(360deg);
-    -o-transform:rotate(360deg);
-    -ms-transform:rotate(360deg);
-    transform:rotate(360deg);
-}
+ {
+     -webkit-transform:rotate(360deg);
+     -moz-transform:rotate(360deg);
+     -o-transform:rotate(360deg);
+     -ms-transform:rotate(360deg);
+     transform:rotate(360deg);
+ }
 .var_nave:hover .link_bg
 {
     width:100%;
@@ -410,23 +426,20 @@ td.pending a:hover{
 }
 
 .setting{
-    padding: 20px 20px 10px 20px;
+    padding: 15px 30px 5px 30px;
     background-color: #f0f0f0;
     border-radius: 6px;
     margin-bottom: 20px;
 }
 
 .setting hr {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 0;
     border-top: 1px solid #e0e0e0;
 }
 
 .setting p{
     color: #0076a3;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .open-message{
@@ -462,4 +475,18 @@ td.pending a:hover{
 
 .margin-top-17{
     margin-top: 17px;
+}
+
+#footer{
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:15px;
+    width:100%;
+    background-color: #005b7f;
+    z-index: 10000;
+}
+
+.superadmin h3{
+    font-size: 20px;
 }

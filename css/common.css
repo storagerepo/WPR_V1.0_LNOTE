@@ -596,6 +596,7 @@ a#logo {
     display:block;
 }
 
+
 .divider_top{
     background:url(../img/top_divider.png) repeat-x center bottom;
     width:100%;
@@ -3060,8 +3061,6 @@ ul.user_panel a.dropdown-toggle{color:#fff;}
 
 .rating_2{color: #FC0;font-size: 14px}
 
-/** Member page +  teacher profile  **/
-.box_style_1.profile{ padding-top:30px;}
 .profile ul{
     text-transform:none;
     font-size:14px;
@@ -4445,12 +4444,20 @@ ul.profile-edit{
     margin-top: 20px !important;
 }
 
+.margin-top-minus-20{
+    margin-top: -20px !important;
+}
+
 .margin-top-30{
     margin-top: 30px !important;
 }
 
 .margin-top-40{
     margin-top: 40px !important;
+}
+
+.margin-top-50{
+    margin-top: 50px !important;
 }
 
 .margin-left-30{
@@ -4495,6 +4502,10 @@ ul.profile-edit{
 
 .margin-bottom-20{
     margin-bottom: 20px !important;
+}
+
+.margin-bottom-30{
+    margin-bottom: 30px !important;
 }
 
 .margin-bottom-15{
@@ -7023,3 +7034,31 @@ ul#follow_us  li a{border: 2px solid #b4d3e0;}
 .text-bold{
     font-weight:bold;
 }
+
+.panel-primary {
+    border-color: #0076a3 !important;
+}
+.panel-primary > .panel-heading {
+    color: #fff !important;
+    background-color: #0076a3 !important;
+    border-color: #0076a3 !important;
+}
+.panel-primary > .panel-heading + .panel-collapse .panel-body {
+    border-top-color: #0076a3 !important;
+}
+.panel-primary > .panel-footer + .panel-collapse .panel-body {
+    border-bottom-color: #0076a3 !important;
+}
+
+.panel-title {
+    font-size: 14px !important;
+    color: #fff !important;
+}
+.panel-title:hover {
+    font-weight:bold;
+}
+
+.panel-title > a {
+    color: #fff !important;
+}
+
